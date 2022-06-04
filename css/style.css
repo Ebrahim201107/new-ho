@@ -11,10 +11,12 @@ body {
     height: 50px;
     background-color: #131921;
     margin-bottom: 1px;
+    opacity: 0.95;
 }
 .header2{
     background-color: #181f29;
     height: 59px;
+    opacity: 0.95;
     margin-bottom: 1px;
 }
 .header2-select{
@@ -146,9 +148,8 @@ body {
 }
 .card-right{
     direction: rtl;
-    width: 70%;
+    width: 80%;
     color: #181f29;
-    /* background-color: #181f29; */
     font-size: clamp(13px,2vw,20px);
 }
 .img-card1{
@@ -163,7 +164,6 @@ body {
     text-overflow: ellipsis;
 }
 .prise{
-    /* margin: auto; */
     width: 100%;
     text-align: center;
 }
@@ -190,6 +190,7 @@ body {
     margin: 5px;
     width: 90%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .card-name2{
@@ -201,7 +202,19 @@ body {
 }
 .card-name1{
     width: 80%;
+    align-items: center;
     display: flex;
+}
+
+.po{
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* opacity: 0.9; */
+}
+.header4{
+    margin-top:112px;
 }
 /*  */
 .footer1{
@@ -266,7 +279,7 @@ body {
         left: 0%;
         right: 0;
         z-index: 100;
-        opacity: 0.8;
+        opacity: 0.9;
      }
     .down{
          margin: auto;
@@ -296,5 +309,8 @@ body {
     }
     .card-right{
         width:65%;
+    }
+    .header4{
+        margin-top:101px;
     }
 }
