@@ -146,7 +146,7 @@ body {
 }
 .card-right{
     direction: rtl;
-    width: 80%;
+    width: 70%;
     color: #181f29;
     /* background-color: #181f29; */
     font-size: clamp(13px,2vw,20px);
@@ -266,6 +266,7 @@ body {
         left: 0%;
         right: 0;
         z-index: 100;
+        opacity: 0.8;
      }
     .down{
          margin: auto;
@@ -291,7 +292,7 @@ body {
         padding: 2px;
     }
     .card-left{
-        width: 27%;
+        width: 35%;
     }
     .card-right{
         width:70%;
