@@ -9,16 +9,19 @@ body {
 }
 .header1{
     height: 50px;
-    background-color: #131921;
-    margin-bottom: 1px;
+    background-color: #0143a7;
+    /* margin-bottom: 1px; */
+    border-bottom: 1px solid #0143a7;
     opacity: 0.95;
 }
 .header2{
-    background-color: #181f29;
+    background-color: #dfdfe0;
     height: 59px;
     opacity: 0.95;
-    margin-bottom: 1px;
+    border-bottom: 1px solid #0143a7;
+    /* margin-bottom: 1px; */
 }
+
 .header2-select{
     height: 55px;
 }
@@ -54,7 +57,7 @@ body {
     border: 0;
     width:40px;
     height: 100%;
-    background-color: #febd69;
+    /* background-color: #febd69; */
 }
 .header1-cont2{
     width: 87%;
@@ -64,7 +67,7 @@ body {
    
 }
 .header1-cont2 a,.my-adver{
-    color: white;
+    color: #313131;
     text-decoration: none;
     flex-shrink: 0;
     margin-left: 25px;
@@ -72,7 +75,7 @@ body {
 .header1-cont2 a:hover{
     border-radius: 5px;
     padding: 5px;
-    border: 1px solid white;
+    border: 1px solid rgb(49, 49, 49);
 }
 
 .header5{
@@ -91,8 +94,8 @@ body {
 }
 
 .select1 select {
-    background-color: #181f29;
-    color: #fdffff;
+    background-color: #dfdfe0;
+    color: #313131;
     font-size: clamp(15px,2vw,20px);
     border-radius: 5px;
     padding: 3px 0;
@@ -100,8 +103,7 @@ body {
 }
 .my-adver{
     padding: 4px;
-    border: 1px solid #ffffff;
-    color: #febd69;
+    border: 1px solid #313131;
     margin-left: 0;
     font-size: clamp(15px,2vw,20px);
     border-radius: 5px;
@@ -230,11 +232,12 @@ body {
    right: 0;
    z-index: 100;
 }
+
 @media  (max-width: 600px){
     .header2{
         height: 48px;
-        background-color: #131921;
-        margin-bottom: 1px;
+        background-color: #dfdfe0;
+        /* margin-bottom: 1px; */
     }
     .header5{
         width: 93%;
@@ -299,7 +302,7 @@ body {
     .my-adver1{
         display: block;
         border: 0;
-        color: #ffffff;
+        color: #313131;
     }
     .card{ 
         width: 95%;
