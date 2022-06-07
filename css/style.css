@@ -185,8 +185,8 @@ body {
 .discount{
     text-decoration: line-through;
 }
-.card-cont{
-    font-size: clamp(13px,2vw,20px);
+.card-name2,.number,.card-link{
+    font-size: clamp(12px,2vw,20px);
 }
 .card-name,.card-contact{
     margin: 5px;
