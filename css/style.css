@@ -186,7 +186,7 @@ body {
     text-decoration: line-through;
 }
 .card-cont{
-    font-size: clamp(14px,2vw,20px);
+    font-size: clamp(13px,2vw,20px);
 }
 .card-name,.card-contact{
     margin: 5px;
@@ -207,7 +207,14 @@ body {
     align-items: center;
     display: flex;
 }
+.card-name{
+    display: flex;
+    align-items: center;
+}
+.card-time,.card-cont,.card-cont{
+    font-size: clamp(10.5px,2vw,20px);
 
+}
 .po{
     top: 0;
     position: fixed;
