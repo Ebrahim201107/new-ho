@@ -121,7 +121,7 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    font-size: clamp(9px,2vw,18px);
+    /* font-size: clamp(12px,2vw,18px); */
 }
 .section1-cont{
     text-align: center;
@@ -186,7 +186,7 @@ body {
     text-decoration: line-through;
 }
 .card-cont{
-    font-size: clamp(11px,2vw,20px);
+    font-size: clamp(14px,2vw,20px);
 }
 .card-name,.card-contact{
     margin: 5px;
