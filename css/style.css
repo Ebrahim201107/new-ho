@@ -244,7 +244,6 @@ body {
     .header2{
         height: 48px;
         background-color: #dfdfe0;
-        /* margin-bottom: 1px; */
     }
     .header5{
         width: 93%;
@@ -290,7 +289,7 @@ body {
         left: 0%;
         right: 0;
         z-index: 100;
-        opacity: 0.9;
+        background-color: #0143a7bb;
      }
     .down{
          margin: auto;
@@ -309,7 +308,7 @@ body {
     .my-adver1{
         display: block;
         border: 0;
-        color: #313131;
+        color: hsl(0, 0%, 100%);
     }
     .card{ 
         width: 95%;
