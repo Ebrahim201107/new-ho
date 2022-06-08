@@ -10,7 +10,6 @@ body {
 .header1{
     height: 50px;
     background-color: #0143a7;
-    /* margin-bottom: 1px; */
     border-bottom: 1px solid #0143a7;
     opacity: 0.95;
 }
@@ -19,9 +18,7 @@ body {
     height: 59px;
     opacity: 0.95;
     border-bottom: 1px solid #0143a7;
-    /* margin-bottom: 1px; */
 }
-
 .header2-select{
     height: 55px;
 }
@@ -57,14 +54,12 @@ body {
     border: 0;
     width:40px;
     height: 100%;
-    /* background-color: #febd69; */
 }
 .header1-cont2{
     width: 87%;
     height: 59px;
     direction: rtl;
     overflow-x: auto;
-   
 }
 .header1-cont2 a,.my-adver{
     color: #313131;
@@ -77,7 +72,6 @@ body {
     padding: 5px;
     border: 1px solid rgb(49, 49, 49);
 }
-
 .header5{
     width: 75%;
 }
@@ -88,11 +82,9 @@ body {
     align-items: center;
     direction: rtl;
 }
-/*  */
 .head-icon{
     font-size: clamp(16px,2vw,21px);
 }
-
 .select1 select {
     background-color: #dfdfe0;
     color: #313131;
@@ -111,17 +103,14 @@ body {
 .section-adver{
     height: 700px;
     width: 100%;
-    /* background-color: aquamarine; */
     background: -webkit-linear-gradient( top  , rgb(2, 49, 179)  ,   #d8dbdb  60%   );
 }
-
 .section1-adver{
     padding: 70px 0;
     width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    /* font-size: clamp(12px,2vw,18px); */
 }
 .section1-cont{
     text-align: center;
@@ -132,7 +121,6 @@ body {
 .icon-left:hover{
     cursor: pointer;
 }
-/*  */
 .card{
     width: 80%;
     padding: 10px;
@@ -141,7 +129,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    border:1px solid #ffffff;
+    border:1px solid #0143a7;
     border-radius: 5px;
 }
 .card-left{
@@ -213,24 +201,20 @@ body {
 }
 .card-time,.card-cont,.card-cont{
     font-size: clamp(10.5px,2vw,20px);
-
 }
 .po{
     top: 0;
     position: fixed;
     left: 0;
     right: 0;
-    /* opacity: 0.9; */
     z-index: 100;
 }
 .header4{
     margin-top:112px;
 }
-/*  */
 .footer1{
     height: 350px;
 }
-/*  */
 .headerdow{
     display: none;
    position: fixed;
@@ -239,7 +223,6 @@ body {
    right: 0;
    z-index: 100;
 }
-
 @media  (max-width: 600px){
     .header2{
         height: 48px;
